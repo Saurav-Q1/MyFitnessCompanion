@@ -1,0 +1,36 @@
+package com.example.healthfitness;
+
+import android.content.Context;
+
+import org.hamcrest.core.Is;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.junit.MockitoJUnitRunner;
+
+import static org.junit.Assert.*;
+
+
+@RunWith(MockitoJUnitRunner.class)
+public class MainActivity2Testlogin {
+
+    private static final String FAKE_STRING = "Login was successful";
+
+
+    @Mock
+    Context mMockConText;
+
+
+    @Test
+    public void readStringFromContext_LocalisedString(){
+        MainActivity2 myObjectUnderTest = new MainActivity2(mMockConText);
+
+        //....When the string is returned from the the object under test...
+        String result = myObjectUnderTest.validate("Admin", "1234" );
+
+        //....then the result should be the expected one.
+        assertThat(result, Is(FAKE_STRING));
+    }
+
+}
+
