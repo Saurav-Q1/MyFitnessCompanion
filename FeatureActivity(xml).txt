@@ -11,17 +11,17 @@
         android:id="@+id/btnCustom"
         android:layout_width="202dp"
         android:layout_height="73dp"
+        android:background="#E01EBF"
         android:text="Custom Diet
         Plan"
-        android:textSize="20dp"
         android:textColor="#fff"
-        android:background="#E01EBF"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.288" />
+        app:layout_constraintVertical_bias="0.113" />
 
     <Button
         android:id="@+id/btnRoutin"
@@ -36,21 +36,34 @@
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCustom"
-        app:layout_constraintVertical_bias="0.22" />
+        app:layout_constraintVertical_bias="0.166" />
 
     <Button
         android:id="@+id/btnDailyActivity"
         android:layout_width="202dp"
         android:layout_height="73dp"
-        android:text="Daily Activity"
-        android:textSize="20dp"
         android:background="#E01EBF"
+        android:text="Daily Activity"
         android:textColor="#fff"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRoutin"
-        app:layout_constraintVertical_bias="0.371" />
+        app:layout_constraintVertical_bias="0.266" />
+
+    <Button
+        android:id="@+id/btnBmi"
+        android:layout_width="202dp"
+        android:layout_height="73dp"
+        android:background="#E01EBF"
+        android:text="BMI Calculator"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDailyActivity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
