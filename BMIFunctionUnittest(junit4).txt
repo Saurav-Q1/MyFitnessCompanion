@@ -1,0 +1,24 @@
+package com.example.healthfitness;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class BMItestTest {
+
+    @Test
+    public void calculateBMI() {
+        float weight= 70;
+        float height = 150;
+        double output;
+        double expected = 0.2333;
+        double delta = 0.1;
+
+
+        BMItest bmItest = new BMItest();
+        output = BMItest.calculateBMI(150,70);
+
+        assertEquals(expected, output, delta );
+
+    }
+}
