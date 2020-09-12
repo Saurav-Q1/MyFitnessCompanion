@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PadmaActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="301dp"
+        android:layout_height="43dp"
+        android:text="      Padma sadhana"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="391dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/padma" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="379dp"
+        android:layout_height="386dp"
+        android:text="1. For body rotation, sit in a half-lotus posture and rotate your body clockwise and anticlockwise, four times in each direction.
+2. Lie down on the floor on your stomach to transition to Makarasana known as the crocodile pose where your head is raised, and your feet are perpendicular to the ground. This asana is for relaxation.
+3. Gradually transition to the Ardha salabhasana by lifting your feet off the floor, one by one.
+4. Move on to the Purna salabhasana by placing your palms under the pelvis and lifting both your limbs off the floor.
+5. It is time now for the Bhujangasana where you keep both your hands near the shoulders and slowly bend back backwards. The Navel should remain on the floor, and your head should look up.
+6. Transition to the Viprit Salabhasana keeping your stomach on the ground and lifting both your hands and legs off the floor.
+7. Now hold both your feet with your hands making a bow shape with your body to perform the Dhanurasana.
+
+These asanas are to be followed by 5 minutes of anulom vilom and then 20 minutes of meditation. Finally, finish it off with 5 minutes of pranayama.
+
+"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
