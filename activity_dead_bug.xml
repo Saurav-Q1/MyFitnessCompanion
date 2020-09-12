@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeadBugActivity">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="301dp"
+        android:layout_height="43dp"
+        android:text="           Dead Bug"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="404dp"
+        android:layout_height="294dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.121"
+        app:srcCompat="@drawable/deadbug" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="351dp"
+        android:layout_height="197dp"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="A great exercise for abdominal wall that improves your body flexibility and balance along with strengthening muscles.
+
+How to do: lie on your back keeping your legs and arms extended towards ceiling. Extend your right arm behind your head while lowering your left leg. Come back to original position and repeat it with switching sides."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.44"
+        android:gravity="center_horizontal" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
