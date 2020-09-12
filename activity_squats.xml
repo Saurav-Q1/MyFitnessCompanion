@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SquatsActivity">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="301dp"
+        android:layout_height="43dp"
+        android:text="              Squats"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="376dp"
+        android:layout_height="328dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.063"
+        app:srcCompat="@drawable/squats" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="371dp"
+        android:layout_height="180dp"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:text="It helps you get in better shape when included in daily workout plan. Strengthens lower body muscles for men. It can be done in many variations.
+
+How to do: Start with the hips back with back straight, chest and shoulders up. Bend your knees and squat down keeping them in line with your feet. Start with 25 squats a day and then increase."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.324"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
