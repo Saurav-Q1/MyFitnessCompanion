@@ -37,7 +37,7 @@ public class MainActivityTestButton {
 
         Activity mainActivity2 = getInstrumentation().waitForMonitorWithTimeout(monitor,5000);
         assertNotNull(mainActivity2);
-        mainActivity2.finish();
+        mainActivity2.finisha();
 
     }
 
